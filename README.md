@@ -18,10 +18,19 @@ Requiring pathogen:
 * vim-haml -- HAML, SASS and SCSS editing support (syntax, indent, ...)
 * markdown -- Markdown editing support
 
-Colors:
+## Colors:
+
+### Dark themes:
 
 * colors/molokai.vim -- a nice dark theme
 * colors/xoria256.vim -- another nice 256-color dark theme
+* colors/zenburn.vim -- darkish low-contrast theme for low-light conditions
+
+### Light themes:
+
+* colors/pyte.vim -- light cold-colored theme for coding during those sunny days
+* colors/proton.vim -- light brownish theme for coding during those sunny days
+* colors/mayansmoke.vim -- light grey-blue theme for day-time coding
 
 Tidy:
 
