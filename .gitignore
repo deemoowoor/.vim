@@ -1,0 +1,6 @@
+*.pyc
+*.pyd
+*.pyo
+.*.swo
+.*.swp
+bundle
