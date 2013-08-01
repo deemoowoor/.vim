@@ -9,7 +9,7 @@ CONTENTS
 
 * pathogen -- VIM package manager
 
-Requiring pathogen:
+### Requiring pathogen
 
 * NERDtree -- directory tree as a window https://github.com/scrooloose/nerdtree.git
 * zencoding-vim -- HTML editing with the use of abbreviations http://github.org/mattn/zenconding-vim
@@ -18,25 +18,25 @@ Requiring pathogen:
 * vim-haml -- HAML, SASS and SCSS editing support (syntax, indent, ...)
 * markdown -- Markdown editing support
 
-## Colors:
+### Colors
 
-### Dark themes:
+#### Dark themes
 
 * colors/molokai.vim -- a nice dark theme
 * colors/xoria256.vim -- another nice 256-color dark theme
 * colors/zenburn.vim -- darkish low-contrast theme for low-light conditions
 
-### Light themes:
+#### Light themes
 
 * colors/pyte.vim -- light cold-colored theme for coding during those sunny days
 * colors/proton.vim -- light brownish theme for coding during those sunny days
 * colors/mayansmoke.vim -- light grey-blue theme for day-time coding
 
-Tidy:
+### Tidy
 
 * extrawhite.vim -- highlight trailing whitespace
 
-Python stuff:
+### Python stuff
 
 * pep8.vim -- check for pep8 violations
 * pydoc.vim -- python stdlib docs in Vim help format
@@ -45,7 +45,7 @@ Python stuff:
 * python_pydiction.vim -- module and keyword completion for python
 * python.vim -- the obligatory indentation fix
 
-Generic:
+### Generic
 
 * restore_window.vim -- save and restore vim window geometry between runs
 
