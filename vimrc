@@ -37,6 +37,9 @@ nnoremap <F4> :NERDTreeFind<cr>
 nnoremap <F5> :GundoToggle<cr>
 " run Pep8
 let g:pep8_map='<F6>'
+
+nnoremap <F9> :SyntasticCheck
+nnoremap <F10> :Errors
 "
 " remove newlines
 nnoremap <leader>j a<CR><Esc>k$
