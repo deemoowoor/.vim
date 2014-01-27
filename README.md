@@ -17,6 +17,7 @@ CONTENTS
 * threesome -- turns VIM into a friendly merge tool
 * vim-haml -- HAML, SASS and SCSS editing support (syntax, indent, ...)
 * markdown -- Markdown editing support
+* syntastic -- Comprehensive code checking for Python and other languages
 
 ### Colors
 
