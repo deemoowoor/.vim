@@ -91,6 +91,19 @@ else
   match OverLength /\%>80v.\+/
 endif
 
+if has("python") && !empty($VIRTUAL_ENV)
+python << EOF
+import os
+import sys
+a = os.environ['VIRTUAL_ENV'] + '/bin/activate_this.py'
+execfile(a, dict(__file__ = a))
+if 'PYTHONPATH' not in os.environ:
+    os.environ['PYTHONPATH'] = ''
+    os.environ['PYTHONPATH'] += ":"+os.getcwd()
+    os.environ['PYTHONPATH'] += ":".join(sys.path)
+EOF
+endif
+
 set clipboard=unnamed
 set encoding=utf-8
 set expandtab
@@ -138,6 +151,3 @@ call pathogen#infect()
 syntax on
 filetype plugin indent on
 " vim: set ft=vim :
-"
-nnoremap <F9> :set colorcolumn=110<CR>:set textwidth=109<CR>
-nnoremap <F8> :set colorcolumn=80<CR>:set textwidth=79<CR>
