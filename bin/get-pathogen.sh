@@ -1,3 +1,3 @@
 #!/bin/sh
 # NOTE: Requires hg-git extension
-hg clone git://github.com/tpope/vim-pathogen.git bundle/pathogen
+git clone https://github.com/tpope/vim-pathogen.git bundle/pathogen
