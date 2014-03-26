@@ -1,1 +1,1 @@
-/usr/share/vim-scripts/indent/python.vim
+/usr/share/vim/vimcurrent/indent/python.vim
